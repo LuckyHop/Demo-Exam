@@ -1,0 +1,150 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 20px;
+    background-color: rgb(139, 0, 219);
+    font-weight: 700;
+}
+
+h1, h2 {
+    color: #FF8700; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+/* Основные стили */
+form {
+    margin-bottom: 20px; 
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 30rem; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    display: inline-block; 
+}
+
+input, textarea, select {
+    display: block;
+    margin-bottom: 15px; 
+    width: calc(100% - 22px); 
+    max-width: 400px;
+    border-radius: 6px;
+    border: 1px solid #7a7a7a; 
+    padding: 10px; 
+    transition: border-color 0.3s; 
+}
+
+button {
+    padding: 10px 15px;
+    transition-duration: 0.4s; 
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none; 
+    background-color: #876ED7; 
+    color: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); 
+    font-size: 12px; 
+    margin-top: 5px;
+    margin-bottom: 1rem; 
+    width: auto; 
+}
+
+button:hover {
+    background-color: #FF8700; 
+    color: #544a63; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+a {
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.login, .admin, .register, .statements {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+a:hover { 
+    color: #FF8700; 
+}
+
+.a:active {
+    transform: translateY(0); 
+}
+
+/* конец основных стилей  */
+
+.back-button {
+    position: absolute;
+    left: 28rem;
+    top: 3%;
+    display: inline-block; 
+    padding: 5px; 
+    background-color: #FF8700; 
+    color: #ffffff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: background-color 0.3s, transform 0.3s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.back-button:hover {
+    background-color: #e76c00; 
+    transform: translateY(-3px); 
+    color: #544a63; 
+}
+
+.back-button:active {
+    transform: translateY(0); 
+}
+
+nav {
+    background-color: #FF8700; 
+    padding: 15px 20px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none; 
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #E9ECEF; 
+    text-decoration: underline; 
+}
+
+.main {
+    border: 3px solid #FF8700;
+    width: 50%;
+    height: auto; 
+    border-radius: 20px;
+    padding: 20px; 
+    background-color: #ffffff; 
+
+}
+
+.register{
+    width: auto;
+    height: auto;
+}
+.register:hover{
+    color: #FF8700; 
+}
